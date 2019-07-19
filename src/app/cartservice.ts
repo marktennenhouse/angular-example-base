@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({providedIn: "root"})
-export class CartServiceService {
+export class CartService {
 
   constructor() { }
   items=[];
 
-  addItems(item:any){
-   this.items.push(item);
+  addToCart(product:any){
+   this.items.push(product);
   }
 
   removeItem(item:any){
