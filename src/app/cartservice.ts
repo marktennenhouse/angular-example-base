@@ -6,11 +6,11 @@ export class CartService {
   constructor() { }
   items=[];
 
-  addToCart(product:any){
+  addToCart(product){
    this.items.push(product);
   }
 
-  removeItem(item:any){
+  removeItem(product){
   //  theItem = this.items.find(z=>z == item);
   }
 

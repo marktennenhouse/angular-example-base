@@ -20,6 +20,7 @@ export class ProductDetailsComponent implements OnInit {
   addToCart()
   {
     this.cartSvc.addToCart(this.product);    
+    window.alert('your product has been added to the cart');
   }
 
 
