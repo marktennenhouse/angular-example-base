@@ -6,4 +6,7 @@
     
      
   </div>
+  <form [formGroup]="checkoutForm" (ng-submit)="onSubmit(checkoutForm.value)">
+    <button type="submit" >Complete order</button>
+  </form>
   </div>
